@@ -6,13 +6,13 @@ false && console.log("never runs");
 true || console.log("never runs");
 
 // This is used in real code to set default values:
-const username = "" || "Guest";
+const userName = "" || "Guest";
 console.log(username);
 
 const port = null || 3000;
 console.log(port);
 
-
+// with if condition
 if ("") {
     console.log("this never runs");
 }
@@ -24,3 +24,15 @@ if ("Pratik") {
 if ([]) {
     console.log("empty array is truth - this runs");
 }
+
+const isLoggedIn = true;
+const cartItems = 3;
+const username = "Pratik";
+// Guard clause
+if (!isLoggedIn) {
+  console.log("Please log in first");
+}
+
+// Ternary operator (compact if/else using boolean)
+const message = isLoggedIn ? "Welcome back!" : "Please sign in";
+console.log(message); // "Welcome back!"
