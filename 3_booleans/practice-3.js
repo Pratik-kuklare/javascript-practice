@@ -18,3 +18,4 @@ let marks = 50;
 let result = marks >= 40 ? "Pass" : "Fail";
 console.log(result); // Pass
  
+
