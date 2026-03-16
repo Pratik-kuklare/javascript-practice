@@ -10,3 +10,4 @@ console.log("0" == false) // true
 null == false       // false — even though null is falsy
 undefined == false  // false — even though undefined is falsy
 "" == false         // true  — but only because of number coercion
+
