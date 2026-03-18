@@ -7,7 +7,7 @@ true || console.log("never runs");
 
 // This is used in real code to set default values:
 const userName = "" || "Guest";
-console.log(username);
+console.log(userName);
 
 const port = null || 3000;
 console.log(port);
@@ -36,3 +36,7 @@ if (!isLoggedIn) {
 // Ternary operator (compact if/else using boolean)
 const message = isLoggedIn ? "Welcome back!" : "Please sign in";
 console.log(message); // "Welcome back!"
+
+const marks = 60;
+ let result = marks >= 40 ? "Pass" : "Fail";
+console.log(result); // Pass
