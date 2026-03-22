@@ -17,3 +17,11 @@ const calculator = {
 };
 console.log(calculator.add(5, 3));
 console.log(calculator.brand);
+
+const user = {
+    name : "Pratik",
+    greet : function() {
+        return "Hello " + this.name;
+    }
+}
+console.log(user.greet());
